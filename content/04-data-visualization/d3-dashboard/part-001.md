@@ -7,9 +7,9 @@ dashedName: part-1
 
 # --description--
 
-Welcome to the dashboard project! You will be using the JavaScript data visualization library, D3, to build a visualization of your social media followers. It will consist of a line graph, a pie chart, and a legend.
+Bem vindo ao projeto painel de controle! Você irá usar a biblioteca de visualização de dados do JavaScript, D3, para construir a visualização dos seus seguidores de redes sociais. Que consiste de um gráfico linear, diagrama de pizza e legendas.
 
-First, you need to create the HTML file. Start by adding the `<!DOCTYPE html>` declaration at the top of the file to tell the browser what type of document it's reading.
+Primeiramente, você deverá criar o arquivo HTML. Comece adicionando a declaração `<!DOCTYPE html>` no topo do seu arquivo para dizer ao navegador que tipo de documento se trata.
 
 # --hints--
 
