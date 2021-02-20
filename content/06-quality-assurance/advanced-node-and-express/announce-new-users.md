@@ -8,8 +8,7 @@ dashedName: announce-new-users
 
 # --description--
 
-Muitas salas de bate-papo tem a possibilidade de anunciar quando um usuário é conectado ou desconectado e mostrar aquilo a todos os usuários conectados naquela 
-sala. Considerando que você já estivesse emitindo um evento ao se conectar ou desconectar, você só precisa modificar esse evento para oferecer suporte a tal recurso. A maneira mais lógica de fazer isso é enviar 3 pieces de informação de dados com o evento: o nome do usuário que se conectou/desconectou, o número de usuários atual, e se o usuário se conectou ou desconectou.
+Muitas salas de bate-papo tem a possibilidade de anunciar quando um usuário é conectado ou desconectado e mostrar aquilo a todos os usuários conectados naquela sala. Considerando que você já estivesse emitindo um evento ao se conectar ou desconectar, você só precisa modificar esse evento para oferecer suporte a tal recurso. A maneira mais lógica de fazer isso é enviar 3 pieces de informação de dados com o evento: o nome do usuário que se conectou/desconectou, o número de usuários atual, e se o usuário se conectou ou desconectou.
 
 Modifique o nome do evento para `'user'`, e  passe um objeto com ele contendo os campos 'name' , 'currentUsers', e 'connected' (para ser 'true' em caso de conexão e 'false' em caso de desconexão do usuário enviado no evento). Tenha certeza de que mudou ambos os campos 'user count' e definiu o usuário desconectado para enviar `false` para o campo 'connected' em vez de `true` como quando ocorre evento de conexão.
 
