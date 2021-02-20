@@ -13,7 +13,7 @@ Primeiramente, você deverá criar o arquivo HTML. Comece adicionando a declara�
 
 # --hints--
 
-test-text
+texto de teste
 
 ```js
 assert(/<!DOCTYPE\s+html\s*>/gi.test(code));
